@@ -10,7 +10,7 @@
 		<meta name="keywords" content="themes_mountain,personal, portfolio new, html, one page, bootstrap, new html template, design, creative, onepage, clean, modern">
 		<meta name="author" content="themes_mountain">
 		<!-- SITE TITLE -->
-		<title>Janemon - Personal Portfolio Template</title>			
+		<title>Madav</title>			
 		<!-- Latest Bootstrap min CSS -->
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">		
 		<!-- Google Font -->
@@ -19,14 +19,17 @@
 		<!-- Font Awesome CSS -->
 		<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/fonts/themify-icons.css">
+		<link rel="stylesheet" href="assets/css/materialdesignicons-min.css">
 		<!--- owl carousel Css-->
 		<link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
 		<link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">					
 		<!-- venobox CSS -->		
-		<link rel="stylesheet" href="assets/css/venobox.css">							
+		<link rel="stylesheet" href="assets/css/venobox.css">	
+		<!-- animate CSS -->
+		<link rel="stylesheet" href="assets/css/animate.css">			
 		<!-- Style CSS -->
-		<link rel="stylesheet" href="assets/css/magic-mouse.css" />				
-		<link rel="stylesheet" href="assets/css/style-light.css" />				
+		<link rel="stylesheet" href="assets/css/magic-mouse.css" />							
+		<link rel="stylesheet" href="assets/css/style.css" />				
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -44,40 +47,216 @@
 		</div>
 	</div>
 	<!-- END PRELOADER -->
-
-	<!-- START  HOME DESIGN -->
-	<section class="section-top">
+	
+	<!-- START NAVBAR -->
+	<nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
 		<div class="container">
-			<div class="offset-lg-1 col-lg-10 col-xs-12 text-center">
-				<div class="section-top-title">
-					<h1>Single blog</h1>
-				</div><!-- //.HERO-TEXT -->
-			</div><!--- END COL -->
-		</div><!--- END CONTAINER -->
-	</section>	
-	<!-- END  HOME DESIGN -->
-		
-	<div class="single_blog_area section-padding">
+			<a class="navbar-brand" href="index.html">Madav</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="mdi mdi-menu"></span>
+			</button><!--END BUTTON-->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul id="navbar-navlist" class="navbar-nav ms-auto">
+					<li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					<li class="nav-item"> <a class="nav-link" href="#service">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+				</ul><!--END NAVBAR NAV-->
+			</div><!--END COLLAPSE-->
+		</div><!--END CONTAINER -->
+	</nav>
+	<!-- END NAVBAR-->	
+											
+	<!-- START HOME -->
+	<!-- <section data-stellar-background-ratio="0.3"  id="home" class="home_bg" style="background-image: url(assets/img/bg.jpg);  background-size:cover; background-position: center center;">
+	<div id="particles-js"></div>	
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-10 offset-lg-1 col-sm-12 col-xs-12">
-					<div class="single_blog_page">
-						<img src="assets/img/blog/single_blog.jpg" class="img-fluid" alt="image" />
-						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here content here making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
-						<p class="text-italic">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here content here making it look like readable English.</p>
-						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here content here making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text</p>
+				<div class="col-lg-8 col-sm-12 col-xs-12">	
+					<div class="about_me_content">
+						<span> - I Am Jannatul Ferdousy</span>
+						<h1 class="typewrite" data-period="2000" data-type='[ "DESIGNER", "FREELANCER", "ENTREPRENEUR"]'>
+						<span class="wrap"></span></h1>	
 					</div>
-				</div><!-- END COL--> 	
-			</div><!-- END ROW -->
-		</div><!-- END CONTAINER -->
-	</div><!-- End MAIN CONTAINER -->
+					<div class="basic-info">
+						<div class="single-basic-info">
+							<p>Email: <br /><span>info@example.com</span></p>
+						</div>
+						<div class="single-basic-info">
+							<p>Phone: <br /><span>+456 789 321</span></p>
+						</div>
+						<div class="single-basic-info">
+							<p>Address: <br /><span>New Winchester</span></p>
+						</div>
+						<div class="single-basic-info">
+							<p>Nationality: <br /><span>USA</span></p>
+						</div>				
+					</div>
+				</div> END CO 
+			</div>END ROW 		
+		</div>END CONTAINER
+	</section> -->
+	<!-- END  HOME -->
+	
+	<!-- START ABOUT -->
+	<section id="about" class="about_area section-padding">
+		<div class="container">
+				
+			<div class="row">					
+				<div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">					
+					<div class="about_img">
+						<img src="assets/img/blog/kumbakarna_himal_final.jpg" class="img-fluid" alt="profile-picture" />
+					</div>
+				</div><!-- / END COL -->		
+				<div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">	
+					<div class="about_info">
+						<h4>KumbaKarna Himal</h4>
+						<p><strong>Kumbhakarna Himal, also known as Jannu, is a prominent mountain in the Himalayas, located in the eastern region of Nepal, specifically within the Panchthar and Ilam districts. Rising to an elevation of 7,710 meters (25,294 feet), it is part of the Kanchenjunga range. The peak is known for its challenging climbing routes and stunning, dramatic shape, making it a favorite among mountaineers. Kumbhakarna is notable for its sheer faces and steep ridges, offering some of the most difficult and technical climbs in the region. The mountain holds cultural and spiritual significance in Nepal, adding to its allure beyond the mountaineering community.</strong></p>
+						<p>Kumbhakarna Himal, also known as Jannu, is surrounded by several notable peaks within the Kanchenjunga range of the Himalayas. The mountains near Kumbhakarna Himal include Kanchenjunga: The third highest mountain in the world. Yalung Kang: Also known as Kanchenjunga West, it is a subsidiary peak of Kanchenjunga.Kabru: A prominent peak located to the southeast of Kumbhakarna Himal.Rathong: Located to the south of Kumbhakarna Himal   </p>
+					</div>					
+					
+			</div><!-- / END ROW -->
+		</div><!-- END CONTAINER  -->
+	</section>	
+	<!-- END ABOUT -->
+	
+
+
+	<!-- START FUNFACT -->
+	<section data-stellar-background-ratio="0.3" id="funfact" class="funfact_area counter_feature section-padding" style=" background-size:cover; background-position: center center;">
+		<div class="container">
+			<div class="row text-center">					
+				<div class="col-lg-3 col-sm-6 col-xs-12 no-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
+					<div class="sp sp-one">
+						<h2 class="counter-num">191</h2>
+						<h3>Happy Client</h3>
+					</div>
+				</div><!-- END COL-->
+				<div class="col-lg-3 col-sm-6 col-xs-12 no-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+					<div class="sp sp-two">
+						<h2 class="counter-num">221</h2>
+						<h3>Successful Project</h3>
+					</div>
+				</div><!-- END COL -->
+				<div class="col-lg-3 col-sm-6 col-xs-12 no-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+					<div class="sp sp-three">
+						<h2 class="counter-num">89</h2>
+						<h3>ui / ux projects</h3>
+					</div>
+				</div><!-- END COL -->
+				<div class="col-lg-3 col-sm-6 col-xs-12 no-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
+					<div class="sp sp-four">
+						<h2 class="counter-num">33</h2>
+						<h3>Team Members</h3>
+					</div>
+				</div>
+			</div><!-- END ROW  -->
+		</div><!-- END CONTAINER  -->
+	</section>	
+	<!-- END FUNFACT -->
+	
+	<!-- START PORTFOLIOS -->
+	<section id="portfolio" class="portfolio_area section-padding">
+		<div class="container">
+			<div class="section-title text-center">
+				<h1>PHOTOGRAPHY</h1>
+				<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+			</div>			
+			<div class="row portfolio_item">										
+				<div class="col-lg-12 text-center">
+					<div class="portfolio_filter">
+						<ul>
+							<li class="filter" data-filter=".all">All</li>
+
+							<li class="filter" data-filter=".bird">bird</li>
+							<li class="filter" data-filter=".nature">Nature</li>
+							<li class="filter" data-filter=".culture">Culture</li>
+							<li class="filter" data-filter=".art">art</li>
+							
+
+						</ul>
+					</div>
+				</div><!--END COL -->	
+				<div class="col-xs-12 col-sm-6 col-lg-4 all bird">		
+					<div class="box">
+						<img src="assets/img/bird/birds.jpg" alt="">
+						<div class="box-content">
+							<h3 class="title">bird</h3>
+							<span class="post">bird</span>
+						</div>
+						<ul class="icon">
+							<li><a href="assets/img/bird/birds.jpg" class="port-icon lightbox" data-gall="gall-work"><i class="fa fa-eye"></i></a></li>
+							<li><a href="single_project_dark.html" target="_blank"><i class="fa fa-link"></i></a></li>
+						</ul>
+				</div>
+			</div>	
+			
+			<div class="col-xs-12 col-sm-6 col-lg-4 all culture">		
+					<div class="box">
+						<img src="assets/img/culture/DSC_0100.jpg" alt="">
+						<div class="box-content">
+							<h3 class="title">NEPALI DRESS</h3>
+							<span class="post">NEPALI DRESS</span>
+						</div>
+						<ul class="icon">
+							<li><a href="assets/img/culture/DSC_0100.jpg" class="port-icon lightbox" data-gall="gall-work"><i class="fa fa-eye"></i></a></li>
+							<li><a href="single_project_dark.html" target="_blank"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-4 all bird">		
+					<div class="box">
+						<img src="assets/img/bird/new_chara.jpg" alt="">
+						<div class="box-content">
+							<h3 class="title">bird</h3>
+							<span class="post">bird</span>
+						</div>
+						<ul class="icon">
+							<li><a href="assets/img/bird/new_chara.jpg" class="port-icon lightbox" data-gall="gall-work"><i class="fa fa-eye"></i></a></li>
+							<li><a href="single_project_dark.html" target="_blank"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-4 all nature">		
+					<div class="box">
+						<img src="assets/img/chayabari/chiyabari.png" alt="">
+						<div class="box-content">
+							<h3 class="title">bird</h3>
+							<span class="post">bird</span>
+						</div>
+						<ul class="icon">
+							<li><a href="assets/img/chayabari/chiyabari.png" class="port-icon lightbox" data-gall="gall-work"><i class="fa fa-eye"></i></a></li>
+							<li><a href="single_project_dark.html" target="_blank"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+				<!--- END COL -->
+			<!--- END COL -->				
+			</div><!-- / END ROW -->
+		</div><!-- END CONTAINER  -->
+	</section>	
+	<!-- END PORTFOLIOS -->	
 	
 	
+
+
+	
+	
+		
+
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d891.2211500425302!2d87.31508138957767!3d26.684172985439247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef69d228f1dd6f%3A0x5684a8bf712f3736!2sMadhav%20Luitel%20residence!5e0!3m2!1sen!2snp!4v1717776213415!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>	
+	
+
 	<!-- START FOOTER -->
 	<div class="footer">
 		<div class="container">
 			<div class="row">					
-				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+				<div class="col-md-12 col-sm-12 col-xs-12 text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
 					<div class="single_footer">
 						<div class="footer_social_profile">
 							<ul>
@@ -88,7 +267,7 @@
 								<li><a href="#">Tumblr</a></li>	
 							</ul>
 						</div><!--- END SOCIAL PROFILE -->		
-						<p class="copyright">Copyright &copy; 2021 |    All Rights Reserved.</p>
+						<p class="copyright">Copyright &copy; 2024 | All Rights Reserved.</p>
 					</div>
 				</div><!--- END COL -->				
 			</div><!--- END ROW -->				
@@ -105,7 +284,9 @@
 	<!-- countTo js -->
 		<script src="assets/js/jquery.inview.min.js"></script>		
 	<!-- jquery appear js -->
-		<script src="assets/js/jquery.appear.js"></script>			
+		<script src="assets/js/jquery.appear.js"></script>	
+	<!-- jquery mixitup min js -->
+		<script src="assets/js/jquery.mixitup.js"></script>			
 	<!-- jquery venobox min js -->
 		<script src="assets/js/venobox.min.js"></script>	
 	<!-- stellar js -->
@@ -115,7 +296,11 @@
 		<script src="assets/js/app.js"></script>			
 	<!-- jquery animated-text js -->	
 		<script src="assets/js/animated-text.js"></script>		
-		<script src="assets/js/animated-text-dark.js"></script>		
+		<script src="assets/js/animated-text-dark.js"></script>	
+	<!-- WOW - Reveal Animations When You Scroll -->
+		<script src="assets/js/wow.min.js"></script>		
+	<!-- scrolltopcontrol js -->																				
+		<script src="assets/js/scrolltopcontrol.js"></script>			
 	<!-- scripts js -->	
 		<script src="assets/js/magic_mouse.js"></script>
 		<script src="assets/js/scripts.js"></script>
